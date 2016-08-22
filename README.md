@@ -10,4 +10,4 @@ bash script short cut to clone a git repo
 # How To Use
 * Run the script
  * `./gc.sh`
-* Type in the name of the repo (without the .git extention)
+* Type in the number associated with the name of the repo.
