@@ -8,6 +8,11 @@ bash script short cut to clone a git repo
  * `chmod +x gc.sh`   
 
 # How To Use
+#### To Clone All Repos
+* Run the script with the all flag
+ * `./gc.sh all`
+
+#### To Clone One Repo
 * Run the script
  * `./gc.sh`
 * Type in the number associated with the name of the repo.
