@@ -53,6 +53,3 @@ else
 	GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa' git clone 'git@git.movableink.com:'$repoName'.git'
 
 fi
-
-#remove resources folder
-rm -rf resources/
