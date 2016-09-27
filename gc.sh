@@ -21,6 +21,9 @@ do
 
 done < "client-repos.md"
 
+#remove resources folder
+rm -rf resources/
+
 #return to initial file path
 cd ..
 cd ..
