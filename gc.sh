@@ -21,12 +21,12 @@ do
 
 done < "client-repos.md"
 
-#remove resources folder
-rm -rf resources/
-
 #return to initial file path
 cd ..
 cd ..
+
+#remove resources folder
+rm -rf resources/
 
 repoList=("${repoList[@]:6}") #remove erroneous repos 'client' 'movableInk', etc
 
